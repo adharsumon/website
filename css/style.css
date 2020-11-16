@@ -810,7 +810,7 @@ ul.our-primary-menu li a:hover::after {
 
 .service-overlay {
 	/* background: rgba(0, 0, 0, 0.2); */
-	background: #fbfbfb;
+	/* background: #fbfbfb; */
 	padding-top: 100px;
 	padding-bottom: 60px;
 	width: 100%;
