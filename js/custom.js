@@ -43,14 +43,14 @@ var mixer = mixitup('.mix');
 $('.slick-active').slick({
   dots: true,
   infinite: true,
-  speed: 1000,
+  speed: 1500,
   slidesToShow: 1,
   adaptiveHeight: true,
   arrows: true,
   nextArrow: ".previous-btn",
   prevArrow: ".next-btn",
   autoplay: true,
-  autoplaySpeed: 4000
+  autoplaySpeed: 3000
 });
 	
 

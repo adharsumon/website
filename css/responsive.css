@@ -71,11 +71,13 @@
     .slider-btn .next-btn {
         top: 105px;
         left: 35px;
+        display: none !important;
     }
 
     .slider-btn .previous-btn {
         top: 105px;
         left: 90px;
+        display: none !important;
     }
 
     .slider-btn .fa {

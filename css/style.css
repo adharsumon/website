@@ -173,7 +173,7 @@ a:hover {
 /* PRELOADER CSS */
 audio {
     position: absolute;
-    top: 0;
+    top: 100%;
     left: 0;
     z-index: -9;
     opacity: 0;
@@ -258,8 +258,8 @@ ul.our-primary-menu li a:hover::after {
 ==============================*/
 .banner-part.bg_cover {
 	height: 100vh;
-	display: flex;
-	align-items: center;
+	/* display: flex; */
+	/* align-items: center; */
 	background-attachment: fixed !important;
 }
 
@@ -1080,7 +1080,7 @@ ul.our-primary-menu li a:hover::after {
 
 .slider-btn .fa {
 	font-size: 50px;
-	color: var(--w_color);
+	color: var(--bColor);
 	background: var(--hcolor);
 	border: transparent;
 	width: 60px;
