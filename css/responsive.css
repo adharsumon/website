@@ -1,0 +1,431 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav-button {
+        color: var(--hcolor) !important;
+        border: 0 !important;
+    }
+
+    .navbar-collapse {
+        position: relative;
+    }
+
+    .navbar-nav {
+        /* position: absolute; */
+        background: var(--bColor);
+        width: 100%;
+        /* z-index: 9; */
+        padding: 15px 0;
+        padding-top: 0;
+    }
+
+    ul.our-primary-menu li a {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .banner-text h2 {
+        font-size: 25px !important;
+        margin: 10px 0;
+    }
+
+    .banner-text p {
+        line-height: 1.4;
+    }
+
+    .about-part.pt-100.pb-60 {
+        padding-top: 60px;
+    }
+
+    .service-overlay {
+        padding-top: 60px;
+    }
+
+    .services-plan-part.pt-100.pb-60 {
+        padding-top: 60px;
+    }
+
+    .portfolio-part.pt-100.pb-60 {
+        padding-top: 60px;
+    }
+
+    .portfolio-top-left h3 {
+        font-size: 25px;
+    }
+
+    .portfolio-top-right-btn button {
+        font-size: 15px;
+        margin: 0 8px;
+    }
+
+    .testimonial-part.pt-100.pb-60 {
+        padding-top: 60px;
+    }
+
+    .slider-btn .next-btn {
+        top: 105px;
+        left: 35px;
+    }
+
+    .slider-btn .previous-btn {
+        top: 105px;
+        left: 90px;
+    }
+
+    .slider-btn .fa {
+        font-size: 25px;
+        border: transparent;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        /* background: var(--hcolor); */
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-part {
+        padding: 0 30px !important;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+    }
+
+    .nav-button {
+        color: var(--hcolor) !important;
+        border: 0 !important;
+    }
+
+    .navbar-collapse {
+        position: relative;
+    }
+
+    .navbar-nav {
+        /* position: absolute; */
+        background: var(--bColor);
+        width: 100%;
+        /* z-index: 9; */
+        padding: 15px 0;
+        padding-top: 0;
+    }
+
+    ul.our-primary-menu li a {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .banner-area {
+        flex-direction: column;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-text h2 {
+        font-size: 25px !important;
+        margin: 10px 0;
+    }
+
+    .banner-text p {
+        line-height: 1.4;
+    }
+
+    .banner-social ul {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .banner-social ul li {
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+    .banner-social ul li a .fa:hover {
+        transform: scale(1.5);
+    }
+
+    .section-title h2 {
+        font-size: 40px;
+    }
+
+    .about-part.pt-100.pb-60 {
+        padding: 30px 0;
+    }
+
+    .about-right-part {
+        margin-top: 30px;
+    }
+
+    .row.aboutt.align-items-center.pb-60 {
+        padding-bottom: 30px;
+    }
+
+    .service-overlay {
+        padding: 30px 0;
+    }
+
+    .single-service.res {
+        margin-bottom: 30px;
+    }
+
+    .services-plan-part.pt-100.pb-60 {
+        padding: 30px 0;
+    }
+
+    .services-title.mb-100 {
+        margin-bottom: 40px;
+    }
+
+    .single-card {
+        margin-bottom: 40px;
+    }
+
+    .portfolio-part.pt-100.pb-60 {
+        padding: 30px 0;
+    }
+
+    .portfolio-top-left h3 {
+        font-size: 25px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 15px;
+    }
+
+    .portfolio-top-right {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .portfolio-top-right-btn button {
+        font-size: 17px;
+        margin: 0 12px;
+    }
+
+    .testimonial-part.pt-100.pb-60 {
+        padding: 30px 0;
+    }
+
+    .slider-btn {
+        display: none;
+    }
+
+    .testimonial.portfolio-top-left.pb-60 {
+        padding-bottom: 30px;
+    }
+
+    .client-text p {
+        line-height: 1;
+    }
+
+    .contact-part.pt-60.pb-30 {
+        padding: 30px 0;
+    }
+    .row.align-items-center {
+        align-items: flex-start !important;
+    }
+    .single-contact a {
+        font-size: 15px;
+    }
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .header-part {
+        padding: 0 15px !important;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+    }
+
+    .nav-button {
+        color: var(--hcolor) !important;
+        border: 0 !important;
+    }
+
+    .navbar-collapse {
+        position: relative;
+    }
+
+    .navbar-nav {
+        /* position: absolute; */
+        background: var(--bColor);
+        width: 100%;
+        /* z-index: 9; */
+        padding: 15px 0;
+        padding-top: 0;
+    }
+
+    ul.our-primary-menu li a {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .btn-primary {
+        font-size: 16px;
+        padding: 12px 20px;
+        margin: 15px 0;
+    }
+    .banner-area {
+        flex-direction: column;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+    .banner-text span.b-title {
+        font-size: 15px;
+    }
+    .banner-text h2 {
+        font-size: 15px !important;
+        margin: 10px 0;
+        line-height: 1;
+    }
+
+    .banner-text p {
+        line-height: 1.3;
+        margin-bottom: 15px;
+        font-size: 15px;
+        color: var(--w_color);
+    }
+
+    .banner-social ul {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .banner-social ul li {
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+    .banner-social ul li a .fa:hover {
+        transform: scale(1.2);
+    }
+
+    .section-title h2 {
+        font-size: 25px;
+    }
+
+    .about-part.pt-100.pb-60 {
+        padding: 30px 0;
+    }
+
+    .about-right-part {
+        margin-top: 30px;
+    }
+    .about-right-text p {
+        font-size: 15px;
+    }
+    .row.aboutt.align-items-center.pb-60 {
+        padding-bottom: 30px;
+    }
+
+    .service-overlay {
+        padding: 30px 0;
+    }
+    .row.ress.mb-60 {
+        margin-bottom: 30px;
+    }
+    .single-service.res {
+        margin-bottom: 30px;
+    }
+
+    .services-plan-part.pt-100.pb-60 {
+        padding: 30px 0;
+    }
+
+    .services-title.mb-100 {
+        margin-bottom: 40px;
+    }
+
+    .single-card {
+        margin-bottom: 40px;
+    }
+    .card-rate h5 {
+        font-size: 40px;
+    }
+    .portfolio-part.pt-100.pb-60 {
+        padding: 30px 0;
+    }
+
+    .portfolio-top-left h3 {
+        font-size: 25px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 15px;
+    }
+
+    .portfolio-top-right {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .portfolio-top-right-btn {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .portfolio-top-right-btn button {
+        font-size: 17px;
+        margin: 0 12px;
+    }
+
+    .testimonial-part.pt-100.pb-60 {
+        padding: 30px 0;
+    }
+
+    .slider-btn {
+        display: none;
+    }
+
+    .testimonial.portfolio-top-left.pb-60 {
+        padding-bottom: 30px;
+    }
+    .single-client {
+        flex-direction: column;
+    }
+    .client-image {
+        margin-right: 0;
+    }
+    .client-text p {
+        line-height: 1;
+        margin-top: 15px;
+    }
+
+    .contact-part.pt-60.pb-30 {
+        padding: 30px 0;
+    }
+    .contact-title {
+        padding-bottom: 30px;
+    }
+    .contact-text {
+        width: 100%;
+    }
+    .contact-text p {
+        text-align: justify;
+    }
+    .row.align-items-center {
+        align-items: flex-start !important;
+    }
+    .single-contact.res {
+        margin-top: 20px;
+    }
+    .single-contact a {
+        font-size: 15px;
+    }
+    .footer-bottom {
+        text-align: center;
+        border-top: 1px solid var(--w_color);
+        padding-top: 15px;
+        margin: 15px 10px 0 10px;
+    }
+}
