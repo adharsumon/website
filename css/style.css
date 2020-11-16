@@ -173,7 +173,7 @@ a:hover {
 /* PRELOADER CSS */
 audio {
     position: absolute;
-    top: 100%;
+    bottom: 0;
     left: 0;
     z-index: -9;
     opacity: 0;
